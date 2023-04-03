@@ -24,7 +24,7 @@ API_HASH = os.environ.get("API_HASH", "03c2cced4dea9b1e96dce87558dd2381")
 
 STRING = os.environ.get("STRING", "BQDimrUATUjWtBsSFIw6tbnA5MxvWaSDFbhSqB4wtOP89QBUjH21KgvUbUPKDMbo_0qgoaEECfPd2zE6baieoEPI-leYnVRUT8ZYTH-WG8hp5z3qlBaKbPftN8PtQoLAskeT7QyPqe50IzkDAdC7XocC7DqbQlDzprJYwtrH4A1u7AIgDmuMg6XvJRa8bmie-IyqcEJM7PPGe5cdSsOPnQ9mSEZInY2hK7briWLI_WReeBI4JCsu3CqQKRZAu8iIr3YFVI1L9BZQD3MXzELrMzkBtN-vPHsyvypThWxKw9qL3970Rhdtokrje7FFD8r0VuvnaVba9PiRPK1DwC8S_FQs4f9-wQAAAAFSdMRBAA")
 
-ADMIN = os.environ.get("ADMIN", "")
+ADMIN = os.environ.get("ADMIN", "5642861964")
 
 app = Client("test", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
 
